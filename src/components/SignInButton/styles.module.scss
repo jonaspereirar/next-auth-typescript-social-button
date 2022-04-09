@@ -3,6 +3,9 @@
   display: block;
   min-height: 4rem;
   width: 100%;
+  small {
+    font: 900 1rem "Roboto", sans-serif;
+  }
 }
 
 .loading,
@@ -14,7 +17,6 @@
   border-radius: 0 0 .6rem .6rem;
   padding: .6rem 1rem;
   margin: 0;
-  background-color: rgba(0,0,0,.05);
   transition: all 0.2s ease-in;
 }
 
